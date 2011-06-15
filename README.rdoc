@@ -1,19 +1,33 @@
 = rfuzzy
 
-Description goes here.
+Rfuzzy is a small, yet handy tool for express creation of fuzzy systems.
+It's goal is to provide a quick way for defining any kind of expert system.
 
-== Contributing to rfuzzy
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+== Features
+
+Adherence functions
+* Easy creation of any adherence function.
+* Performing t and s norms on functions.
+* Defuzzification.
+
+Fuzzy domains (fuzzy sets)
+* Easy creation of domains.
+* Domains described by named adherence functions.
+
+Fuzzy rules
+* Syntax similar to natural language.
+* Proc's used as both antecendent and consequent of a rule.
+
+Fuzzy systems
+* Easy definition of input and output variables.
+* Easy definition of rules
+
+== Tutorials
+
+More information can be found at:
+http://student.agh.edu.pl/~majta/rfuzzy
 
 == Copyright
 
-Copyright (c) 2011 lolek09. See LICENSE.txt for
-further details.
-
+This software is distributed under JSON License:
+http://www.json.org/license.html
